@@ -26,6 +26,7 @@
 }
 .contact-header .container {
   position: relative;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=header.css.map */

@@ -11877,6 +11877,7 @@ footer .social-links {
 }
 .contact-header .container {
   position: relative;
+  z-index: 2;
 }
 
 .contact-form {
