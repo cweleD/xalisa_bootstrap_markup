@@ -1,0 +1,23 @@
+.contact-form {
+  display: flex;
+  padding: 120px 0;
+}
+.contact-form .form-holder {
+  width: 50%;
+  background-color: var(--bs-blue);
+  padding: 60px 30px;
+  display: flex;
+  align-items: center;
+}
+.contact-form .form-holder label, .contact-form .form-holder .form-text {
+  color: white;
+}
+.contact-form .content-holder {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 30px;
+}
+
+/*# sourceMappingURL=form.css.map */
