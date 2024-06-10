@@ -11,8 +11,8 @@
   font-weight: 600;
 }
 .navbar .nav-item .nav-link.btn {
-  border: 2px solid var(--bs-primary);
-  color: var(--bs-primary);
+  border: 2px solid var(--primary);
+  color: var(--primary);
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -20,7 +20,7 @@
   margin-left: 0.5rem;
 }
 .navbar .nav-item .nav-link.btn:hover, .navbar .nav-item .nav-link.btn:focus {
-  background-color: var(--bs-primary);
+  background-color: var(--primary);
   color: #fff;
 }
 

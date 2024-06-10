@@ -1,8 +1,52 @@
 .offset .card-body {
   position: relative;
-  background-color: #fff;
-  padding: 6rem 4rem;
+  padding: 4rem;
   margin-top: -6rem;
+}
+
+.card {
+  border: none;
+  text-decoration: none;
+  height: 100%;
+}
+.card:not(.article) {
+  border-top: 4px solid;
+}
+.card.primary {
+  border-top-color: var(--primary);
+}
+.card.primary h4, .card.primary h3, .card.primary .icon-holder {
+  color: var(--primary);
+}
+.card.secondary {
+  border-top-color: var(--secondary);
+}
+.card.secondary h4, .card.secondary h3, .card.secondary .icon-holder {
+  color: var(--secondary);
+}
+.card.tirtiary {
+  border-top-color: var(--tirtiary);
+}
+.card.tirtiary h4, .card.tirtiary h3, .card.tirtiary .icon-holder {
+  color: var(--tirtiary);
+}
+.card.purple {
+  border-top-color: var(--purple);
+}
+.card.purple h4, .card.purple h3, .card.purple .icon-holder {
+  color: var(--purple);
+}
+.card.green {
+  border-top-color: var(--green);
+}
+.card.green h4, .card.green h3, .card.green .icon-holder {
+  color: var(--green);
+}
+.card .card-title {
+  padding-top: 1rem;
+}
+.card .card-body .icon-holder i {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=card.css.map */

@@ -15,8 +15,8 @@
             font-weight: 600;
 
             &.btn {
-                border: 2px solid var(--bs-primary);
-                color: var(--bs-primary);
+                border: 2px solid var(--primary);
+                color: var(--primary);
                 padding-left: 2rem;
                 padding-right: 2rem;
 
@@ -25,7 +25,7 @@
                 }
     
                 &:hover, &:focus {
-                    background-color: var(--bs-primary);
+                    background-color: var(--primary);
                     color: #fff;
                 }
             }

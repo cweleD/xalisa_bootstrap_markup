@@ -1,8 +1,66 @@
 .offset {
     .card-body {
         position: relative;
-        background-color: #fff;
-        padding: 6rem 4rem;
+        padding: 4rem;
         margin-top: -6rem;
     }
-} 
+}
+
+.card {
+    border: none;
+    text-decoration: none;
+    height: 100%;
+    &:not(.article) {
+        border-top: 4px solid;
+    }
+    &.primary {
+        border-top-color: var(--primary);
+
+        h4, h3, .icon-holder {
+            color: var(--primary); 
+        }
+    }
+
+    &.secondary {
+        border-top-color: var(--secondary);
+
+        h4, h3, .icon-holder {
+            color: var(--secondary); 
+        }
+    }
+
+    &.tirtiary {
+        border-top-color: var(--tirtiary);
+
+        h4, h3, .icon-holder {
+            color: var(--tirtiary); 
+        }
+    }
+
+    &.purple {
+        border-top-color: var(--purple);
+
+        h4, h3, .icon-holder {
+            color: var(--purple); 
+        }
+    }
+    &.green {
+        border-top-color: var(--green);
+
+        h4, h3, .icon-holder {
+            color: var(--green); 
+        }
+    }
+    
+    .card-title {
+        padding-top: 1rem;
+    }
+
+    .card-body {
+        .icon-holder {
+            i {
+                font-size: 2rem;
+            }
+        }
+    }
+}

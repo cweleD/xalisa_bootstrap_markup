@@ -8,3 +8,27 @@
 @import "./header.scss";
 @import "./form.scss"; 
 @import "./card.scss";
+@import "./post.scss";
+
+
+.content-image-offset {
+   display: flex;
+   align-items: center;
+
+    .content {
+        position: relative;
+        max-width: 55%;
+        background-color: var(--white);
+        padding: 3rem 2rem;
+        border-radius: 8px;
+        margin-right: -8rem;
+
+        .tag-primary {
+            background-color: var(--primary)
+        }
+    }
+
+    .img-holder {
+        width: 100%;;
+    }
+}

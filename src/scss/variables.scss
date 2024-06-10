@@ -1,3 +1,15 @@
 :root {
     --primary : #1A237E;
+    --secondary: #ffa500;
+    --tirtiary: #3498db;
+    --green: #5dade2;
+    --gray: #808080;
+    --purple: #A020F0;
+    --white: #ffffff;
+    --light: #F8F9FA;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+    color: var(--white);
 }
