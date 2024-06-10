@@ -1,0 +1,34 @@
+.navbar {
+    .navbar-brand {
+        .logo {
+            width: 100%;
+            max-width: 8rem;
+            height: auto;
+        }
+    }
+    .nav-item {
+        padding-left: 0.75rem;
+        padding-right: .75rem;
+
+        .nav-link {
+
+            font-weight: 600;
+
+            &.btn {
+                border: 2px solid var(--bs-primary);
+                color: var(--bs-primary);
+                padding-left: 2rem;
+                padding-right: 2rem;
+
+                i {
+                    margin-left: .5rem;
+                }
+    
+                &:hover, &:focus {
+                    background-color: var(--bs-primary);
+                    color: #fff;
+                }
+            }
+        }
+    }
+} 

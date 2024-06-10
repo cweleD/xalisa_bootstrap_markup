@@ -1,0 +1,27 @@
+.navbar .navbar-brand .logo {
+  width: 100%;
+  max-width: 8rem;
+  height: auto;
+}
+.navbar .nav-item {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.navbar .nav-item .nav-link {
+  font-weight: 600;
+}
+.navbar .nav-item .nav-link.btn {
+  border: 2px solid var(--bs-primary);
+  color: var(--bs-primary);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.navbar .nav-item .nav-link.btn i {
+  margin-left: 0.5rem;
+}
+.navbar .nav-item .nav-link.btn:hover, .navbar .nav-item .nav-link.btn:focus {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
+/*# sourceMappingURL=nav.css.map */

@@ -4,6 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11844,9 +11845,64 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --primary: #1A237E;
+}
+
+.dark-mode body, .dark-mode h1, .dark-mode .h1, .dark-mode h2, .dark-mode .h2, .dark-mode h3, .dark-mode .h3, .dark-mode h4, .dark-mode .h4, .dark-mode h5, .dark-mode .h5, .dark-mode p, .dark-mode span {
+  color: #fff;
+}
+
+.navbar .navbar-brand .logo {
+  width: 100%;
+  max-width: 8rem;
+  height: auto;
+}
+.navbar .nav-item {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.navbar .nav-item .nav-link {
+  font-weight: 600;
+}
+.navbar .nav-item .nav-link.btn {
+  border: 2px solid var(--bs-primary);
+  color: var(--bs-primary);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.navbar .nav-item .nav-link.btn i {
+  margin-left: 0.5rem;
+}
+.navbar .nav-item .nav-link.btn:hover, .navbar .nav-item .nav-link.btn:focus {
+  background-color: var(--bs-primary);
+  color: #fff;
+}
+
 footer .social-links {
   display: flex;
   justify-content: space-around;
+}
+
+.bg-size-cover {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-size-cover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.75;
+}
+.bg-size-cover .container {
+  position: relative;
+  z-index: 1;
 }
 
 .contact-header {
@@ -11900,6 +11956,13 @@ footer .social-links {
   flex-direction: column;
   justify-content: center;
   padding: 60px 30px;
+}
+
+.offset .card-body {
+  position: relative;
+  background-color: #fff;
+  padding: 6rem 4rem;
+  margin-top: -6rem;
 }
 
 /*# sourceMappingURL=main.css.map */
