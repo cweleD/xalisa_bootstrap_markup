@@ -9,8 +9,26 @@
   text-decoration: none;
   height: 100%;
 }
-.card:not(.article) {
+.card:not(.article, .bg-card) {
   border-top: 4px solid;
+}
+.card.bg-card {
+  color: var(--white);
+}
+.card.bg-card.primary {
+  background-color: var(--primary);
+}
+.card.bg-card.secondary {
+  background-color: var(--secondary);
+}
+.card.bg-card.tertiary {
+  background-color: var(--tertiary);
+}
+.card.bg-card.purple {
+  background-color: var(--purple);
+}
+.card.bg-card.green {
+  background-color: var(--green);
 }
 .card.primary {
   border-top-color: var(--primary);
@@ -24,11 +42,11 @@
 .card.secondary h4, .card.secondary h3, .card.secondary .icon-holder {
   color: var(--secondary);
 }
-.card.tirtiary {
-  border-top-color: var(--tirtiary);
+.card.tertiary {
+  border-top-color: var(--tertiary);
 }
-.card.tirtiary h4, .card.tirtiary h3, .card.tirtiary .icon-holder {
-  color: var(--tirtiary);
+.card.tertiary h4, .card.tertiary h3, .card.tertiary .icon-holder {
+  color: var(--tertiary);
 }
 .card.purple {
   border-top-color: var(--purple);

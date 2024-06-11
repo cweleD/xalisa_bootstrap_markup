@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="./css/main.css" rel="stylesheet" />
+    <link
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <title>Enkosi Xalisa</title>
   </head>
   <body>
@@ -14,15 +18,18 @@
         <div class="navbar navbar-expand-lg navbar-light">
           <div class="container">
             <a href="#" class="navbar-brand">
-              <img src="logo" class="logo" />
+              <img src="../asset/img/xalisa-logo.webp" class="logo" />
             </a>
-            <div class="collapse navbar-collapse me-auto" id="navbarCollapse">
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarCollapse"
+            >
               <hr class="my-3" />
               <ul class="navbar-nav">
                 <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle">Services</a>
-                  <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Services</a>
+                  <!-- <ul class="dropdown-menu">
                     <li class="dropdown">
                       <a href="#" class="dropdown-item dropdown-toggle"
                         >Service One</a
@@ -38,13 +45,15 @@
                         >Service One</a
                       >
                     </li>
-                  </ul>
+                  </ul>-->
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="btn btn-primary nav-link">Contact</a>
+                  <a href="#" class="btn btn-primary nav-link"
+                    >Contact <i class="bi bi-arrow-right"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -53,11 +62,13 @@
       </header>
 
       <section
-        class="bg-position bg-light bg-size-cover py-3 py-sm-5"
-        style="background-image: url('')"
+        class="bg-position dark-mode bg-light bg-size-cover py-3 py-sm-5"
+        style="
+          background-image: url('../asset/img/christopher-gower-v4rleeiaobo-unsplash.webp');
+        "
       >
         <div class="container">
-          <div class="row">
+          <div class="row py-5">
             <div class="col-md-8 col-xl-6">
               <h1>Full suite of development and support services.</h1>
               <p>From build to hosting, leave the geeky bits to us.</p>
@@ -65,91 +76,111 @@
           </div>
         </div>
       </section>
-      <section>
+
+      <section class="py-5">
         <div class="container">
-          <div class="row mx-auto">
-            <div class="col-sm-4 mb-3">
-              <div class="card border-top-primary">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="row py-5 mx-auto">
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <a href="#" class="card primary shadow">
+                <div class="card-body bg-light">
+                  <div class="icon-holder"><i class="bi bi-file-code"></i></div>
+                  <h3 class="card-title">Umbraco development</h3>
+                  <div class="card-text">
+                    <p>
+                      Our technical delivery team of experienced engineers will
+                      deliver a best-practice implementation on Umbraco CMS.
+                    </p>
+                    <!-- <a href="#">Read More</a>-->
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-sm-4 mb-3">
-              <div class="card border-top-secondary">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <a href="#" class="card secondary shadow">
+                <div class="card-body bg-light">
+                  <div class="icon-holder"><i class="bi bi-file-code"></i></div>
+                  <h3 class="card-title">Support plans</h3>
+                  <div class="card-text">
+                    <p>
+                      Ready-made Support and Maintenance plans for your Umbraco
+                      websites.
+                    </p>
+                    <!-- <a href="#">Read More</a> -->
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-sm-4 mb-3">
-              <div class="card border-top-tertiary">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <a href="#" class="card tertiary shadow">
+                <div class="card-body bg-light">
+                  <div class="icon-holder"><i class="bi bi-file-code"></i></div>
+                  <h3 class="card-title">Affordable hosting</h3>
+                  <div class="card-text">
+                    <p>Affordable, secure hosting for Umbraco websites.</p>
+                    <!-- <a href="#">Read More</a> -->
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-sm-4 mb-3">
-              <div class="card border-top-primary">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <a href="#" class="card purple shadow">
+                <div class="card-body bg-light">
+                  <div class="icon-holder"><i class="bi bi-file-code"></i></div>
+                  <h3 class="card-title">Systems integrations</h3>
+                  <div class="card-text">
+                    <p>
+                      From Commerce to CRM, our team will bring it together.
+                    </p>
+                    <!-- <a href="#">Read More</a> -->
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-sm-4 mb-3">
-              <div class="card border-top-secondary">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <a href="#" class="card green shadow">
+                <div class="card-body bg-light">
+                  <div class="icon-holder"><i class="bi bi-file-code"></i></div>
+                  <h3 class="card-title">PSD / HTML to Umbraco</h3>
+                  <div class="card-text">
+                    <p>
+                      Bring your design concepts or HTML as Umbraco templates.
+                    </p>
+                    <!-- <a href="#">Read More</a> -->
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
-            <div class="col-sm-4 mb-3">
-              <div class="card border-top-tertiary">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <a href="#" class="card primary shadow">
+                <div class="card-body bg-light">
+                  <div class="icon-holder"><i class="bi bi-file-code"></i></div>
+                  <h3 class="card-title">Umbraco DXP</h3>
+                  <div class="card-text">
+                    <p>
+                      Build a full Digital Experience Platform around your
+                      favourite CMS.
+                    </p>
+                    <!-- <a href="#">Read More</a> -->
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </section>
-      <section class="bg-primary py-5">
+
+      <section class="bg-primary dark-mode py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 mx-auto">
+            <div class="col-md-10 mx-auto">
               <div class="content text-center">
-                <h2>Embrace Innovation and Stay Competitive</h2>
-                <p>
+                <h2 class="py-1">Embrace Innovation and Stay Competitive</h2>
+                <p class="lead">
                   Embracing Feedback: You are not your code and your code is
                   merely a reflection of where you were at that time.
                   Constructive criticism is a valuable asset for personal
@@ -157,19 +188,22 @@
                   feedback from peers, managers, and users, seeing it as a
                   chance to improve.
                 </p>
-                <a href="#" class="btn btn-secondary">Read More</a>
+
+                <div class="pt-3">
+                  <a href="#" class="btn btn-outline">Read More</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="py-5">
+    <footer class="py-3">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center align-items-center">
           <div class="col-md-4">
             <div class="footer-logo">
-              <img src="" class="img-fluid logo" />
+              <img src="../asset/img/xalisa-logo.webp" class="img-fluid logo" />
             </div>
           </div>
           <div class="col-md-4">
@@ -181,9 +215,9 @@
           </div>
           <div class="col-md-4">
             <div class="social-icons">
-              <span class="fa icon-facebook"></span>
-              <span class="fa icon-twitter"></span>
-              <span class="fa icon-linkedIn"></span>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>

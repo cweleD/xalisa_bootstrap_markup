@@ -11848,7 +11848,7 @@ textarea.form-control-lg {
 :root {
   --primary: #1A237E;
   --secondary: #ffa500;
-  --tirtiary: #3498db;
+  --tertiary: #3498db;
   --green: #5dade2;
   --gray: #484F72;
   --purple: #A020F0;
@@ -12025,8 +12025,26 @@ footer .social-icons a {
   text-decoration: none;
   height: 100%;
 }
-.card:not(.article) {
+.card:not(.article, .bg-card) {
   border-top: 4px solid;
+}
+.card.bg-card {
+  color: var(--white);
+}
+.card.bg-card.primary {
+  background-color: var(--primary);
+}
+.card.bg-card.secondary {
+  background-color: var(--secondary);
+}
+.card.bg-card.tertiary {
+  background-color: var(--tertiary);
+}
+.card.bg-card.purple {
+  background-color: var(--purple);
+}
+.card.bg-card.green {
+  background-color: var(--green);
 }
 .card.primary {
   border-top-color: var(--primary);
@@ -12040,11 +12058,11 @@ footer .social-icons a {
 .card.secondary h4, .card.secondary .h4, .card.secondary h3, .card.secondary .h3, .card.secondary .icon-holder {
   color: var(--secondary);
 }
-.card.tirtiary {
-  border-top-color: var(--tirtiary);
+.card.tertiary {
+  border-top-color: var(--tertiary);
 }
-.card.tirtiary h4, .card.tirtiary .h4, .card.tirtiary h3, .card.tirtiary .h3, .card.tirtiary .icon-holder {
-  color: var(--tirtiary);
+.card.tertiary h4, .card.tertiary .h4, .card.tertiary h3, .card.tertiary .h3, .card.tertiary .icon-holder {
+  color: var(--tertiary);
 }
 .card.purple {
   border-top-color: var(--purple);
@@ -12127,6 +12145,15 @@ footer .social-icons a {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+}
+
+.blog-section {
+  padding: 4rem 3rem;
+  position: relative;
+  background-color: var(--white);
+  z-index: 2;
+  margin-top: -4rem;
+  line-height: inherit;
 }
 
 .content-image-offset {

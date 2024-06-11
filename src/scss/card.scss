@@ -10,9 +10,29 @@
     border: none;
     text-decoration: none;
     height: 100%;
-    &:not(.article) {
+    &:not(.article, .bg-card) {
         border-top: 4px solid;
     }
+
+    &.bg-card {
+        color: var(--white);
+        &.primary {
+            background-color: var(--primary);
+        }
+        &.secondary {
+            background-color: var(--secondary);
+        }
+        &.tertiary {
+            background-color: var(--tertiary);
+        }
+        &.purple {
+            background-color: var(--purple);
+        }
+        &.green {
+            background-color: var(--green);
+        }
+    }
+
     &.primary {
         border-top-color: var(--primary);
 
@@ -29,11 +49,11 @@
         }
     }
 
-    &.tirtiary {
-        border-top-color: var(--tirtiary);
+    &.tertiary {
+        border-top-color: var(--tertiary);
 
         h4, h3, .icon-holder {
-            color: var(--tirtiary); 
+            color: var(--tertiary); 
         }
     }
 
