@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link href="./css/main.css" rel="stylesheet" />
+    <link
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
     <title>Enkosi Xalisa</title>
   </head>
   <body>
@@ -14,15 +18,18 @@
         <div class="navbar navbar-expand-lg navbar-light">
           <div class="container">
             <a href="#" class="navbar-brand">
-              <img src="logo" alt="Logo" class="logo" />
+              <img src="../asset/img/xalisa-logo.webp" class="logo" />
             </a>
-            <div class="collapse navbar-collapse me-auto" id="navbarCollapse">
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarCollapse"
+            >
               <hr class="my-3" />
               <ul class="navbar-nav">
                 <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle">Services</a>
-                  <ul class="dropdown-menu">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Services</a>
+                  <!-- <ul class="dropdown-menu">
                     <li class="dropdown">
                       <a href="#" class="dropdown-item dropdown-toggle"
                         >Service One</a
@@ -38,13 +45,15 @@
                         >Service One</a
                       >
                     </li>
-                  </ul>
+                  </ul>-->
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="btn btn-primary nav-link">Contact</a>
+                  <a href="#" class="btn btn-primary nav-link"
+                    >Contact <i class="bi bi-arrow-right"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -53,28 +62,42 @@
       </header>
 
       <!-- Hero Section -->
-      <section
-        class="bg-position bg-light bg-size-cover py-3 py-sm-5"
-        style="background-image: url('')"
-      >
-        <div class="container py-5">
-          <div class="row align-items-center">
-            <div class="col-xl-6 py-xl-3">
-              <span>Enkosi Xalisa</span>
-              <h1>
-                Cultivating a Growth Mindset: The Secret to Flourishing as a C#
-                Software Engineer
-              </h1>
-              <p>
-                Enkosi Xabisa's expert insights provide you with a comprehensive
-                understanding of the latest tools and trends in web and mobile
-                development. This comprehensive industry knowledge empowers you
-                to make informed decisions and stay ahead of the competition....
-                Read More
-              </p>
-            </div>
-            <div class="col-xl-6">
-              <img src="#" class="img-fluid" alt="Blog Image" />
+      <section class="bg-light py-5 py-sm-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="blogArticle">
+                <a href="#" class="post-content shadow-lg">
+                  <span class="bg-primary px-3 py-2 rounded"
+                    ><b>Latest Blog</b></span
+                  >
+                  <h1 class="py-1">
+                    Cultivating a Growth Mindset: The Secret to Flourishing as a
+                    C# Software Engineer
+                  </h1>
+                  <p>
+                    Enkosi Xabisa's expert insights provide you with a
+                    comprehensive understanding of the latest tools and trends
+                    in web and mobile development. This comprehensive industry
+                    knowledge empowers you to make informed decisions and stay
+                    ahead of the competition...
+                  </p>
+                  <p>
+                    <b>by Enkosi Xalisa, </b>
+                    <i>20 June 2024</i>
+                  </p>
+                </a>
+
+                <div class="post-header">
+                  <a href="#">
+                    <img
+                      src="../asset/img_blog/5.jpg"
+                      class="img-fluid"
+                      alt="Blog Image"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -82,166 +105,194 @@
 
       <section class="py-5">
         <div class="container">
-          <div class="row py-5">
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
+          <div class="row">
+            <h2 class="text-center pb-5">Latest Insights</h2>
+            <div class="col-md-6 col-lg-4 my-5">
+              <div class="card article shadow">
+                <a href="#" class="img-holder">
+                  <img
+                    src="../asset/img_blog/1.jpg"
+                    alt="Blog Image"
+                    class="card-img-top img-fluid"
+                  />
+                </a>
+                <div class="card-body">
                   <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
+                    <a href="#"
+                      >Cultivating a Growth Mindset: The Secret to Flourishing
+                      as a C# Software Engineer</a
+                    >
                   </h3>
                   <p>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
+                  <a href="#" class="link-holder">
+                    <span class="btn-link">Read More</span>
+                    <span class="date">20 Jun 2024</span>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
+            <div class="col-md-6 col-lg-4 my-5">
+              <div class="card article shadow">
+                <a href="#" class="img-holder">
+                  <img
+                    src="../asset/img_blog/2.jpg"
+                    alt="Blog Image Two"
+                    class="card-img-top img-fluid"
+                  />
+                </a>
+                <div class="card-body">
                   <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
+                    <a href="#"
+                      >Cultivating a Growth Mindset: The Secret to Flourishing
+                      as a C# Software Engineer</a
+                    >
                   </h3>
                   <p>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
+                  <a href="#" class="link-holder">
+                    <span class="btn-link">Read More</span>
+                    <span class="date">20 Jun 2024</span>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
+            <div class="col-md-6 col-lg-4 my-5">
+              <div class="card article shadow">
+                <a href="#" class="img-holder">
+                  <img
+                    src="../asset/img_blog/2.jpg"
+                    alt="Blog Image Two"
+                    class="card-img-top img-fluid"
+                  />
+                </a>
+                <div class="card-body">
                   <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
+                    <a href="#"
+                      >Cultivating a Growth Mindset: The Secret to Flourishing
+                      as a C# Software Engineer</a
+                    >
                   </h3>
                   <p>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
+                  <a href="#" class="link-holder">
+                    <span class="btn-link">Read More</span>
+                    <span class="date">20 Jun 2024</span>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
+            <div class="col-md-6 col-lg-4 my-5">
+              <div class="card article shadow">
+                <a href="#" class="img-holder">
+                  <img
+                    src="../asset/img_blog/2.jpg"
+                    alt="Blog Image Two"
+                    class="card-img-top img-fluid"
+                  />
+                </a>
+                <div class="card-body">
                   <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
+                    <a href="#"
+                      >Cultivating a Growth Mindset: The Secret to Flourishing
+                      as a C# Software Engineer</a
+                    >
                   </h3>
                   <p>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
+                  <a href="#" class="link-holder">
+                    <span class="btn-link">Read More</span>
+                    <span class="date">20 Jun 2024</span>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
+            <div class="col-md-6 col-lg-4 my-5">
+              <div class="card article shadow">
+                <a href="#" class="img-holder">
+                  <img
+                    src="../asset/img_blog/2.jpg"
+                    alt="Blog Image Two"
+                    class="card-img-top img-fluid"
+                  />
+                </a>
+                <div class="card-body">
                   <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
+                    <a href="#"
+                      >Cultivating a Growth Mindset: The Secret to Flourishing
+                      as a C# Software Engineer</a
+                    >
                   </h3>
                   <p>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
+                  <a href="#" class="link-holder">
+                    <span class="btn-link">Read More</span>
+                    <span class="date">20 Jun 2024</span>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
+            <div class="col-md-6 col-lg-4 my-5">
+              <div class="card article shadow">
+                <a href="#" class="img-holder">
+                  <img
+                    src="../asset/img_blog/3.jpg"
+                    alt="Blog three Image"
+                    class="card-img-top img-fluid"
+                  />
+                </a>
+                <div class="card-body">
                   <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
+                    <a href="#"
+                      >Cultivating a Growth Mindset: The Secret to Flourishing
+                      as a C# Software Engineer</a
+                    >
                   </h3>
                   <p>
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
+                  <a href="#" class="link-holder">
+                    <span class="btn-link">Read More</span>
+                    <span class="date">20 Jun 2024</span>
+                  </a>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
-                  <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
-                  </h3>
-                  <p>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
-                </div>
-              </div>
+      <section class="bg-primary py-5">
+        <div class="container">
+          <div class="row dark-mode py-3 align-items-center">
+            <div class="col-md-8">
+              <h2>Embrace Innovation and Stay Competitive</h2>
             </div>
-
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
-                  <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
-                  </h3>
-                  <p>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="card shadow-sm">
-                <img src="" class="card-img-top img-fluid" />
-                <div class="card-body card-text">
-                  <h3>
-                    Cultivating a Growth Mindset: The Secret to Flourishing as a
-                    C# Software Engineer
-                  </h3>
-                  <p>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <a href="#" class="btn btn-secondary">Read More</a>
-                </div>
+            <div class="col-md-4">
+              <div class="d-flex justify-content-end">
+                <a href="#" class="btn btn-outline-secondary">Read More</a>
               </div>
             </div>
           </div>
@@ -249,12 +300,12 @@
       </section>
     </main>
 
-    <footer class="py-5">
+    <footer class="py-3">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center align-items-center">
           <div class="col-md-4">
             <div class="footer-logo">
-              <img src="" alt="Logo" class="img-fluid logo" />
+              <img src="../asset/img/xalisa-logo.webp" class="img-fluid logo" />
             </div>
           </div>
           <div class="col-md-4">
@@ -266,9 +317,9 @@
           </div>
           <div class="col-md-4">
             <div class="social-icons">
-              <span class="fa icon-facebook"></span>
-              <span class="fa icon-twitter"></span>
-              <span class="fa icon-linkedIn"></span>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>

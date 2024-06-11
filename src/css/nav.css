@@ -9,6 +9,7 @@
 }
 .navbar .nav-item .nav-link {
   font-weight: 600;
+  color: var(--primary);
 }
 .navbar .nav-item .nav-link.btn {
   border: 2px solid var(--primary);

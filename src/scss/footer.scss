@@ -3,4 +3,38 @@ footer {
         display: flex;
         justify-content: space-around;
     }
+
+    .footer-logo {
+        img {
+            width: 100%;
+            max-width: 6rem;
+            height: auto;
+        }
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li {
+            list-style: none;
+            font-weight: 600;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        a {
+            padding: 1rem;
+            font-size: 1.125rem;
+        }
+    } 
 }

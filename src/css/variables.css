@@ -3,15 +3,24 @@
   --secondary: #ffa500;
   --tirtiary: #3498db;
   --green: #5dade2;
-  --gray: #808080;
+  --gray: #484F72;
   --purple: #A020F0;
   --white: #ffffff;
   --light: #F8F9FA;
 }
 
 .bg-primary {
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
   color: var(--white);
+}
+.bg-primary .btn {
+  color: var(--white);
+  border-color: var(--white);
+}
+.bg-primary .btn:hover {
+  background-color: var(--white);
+  color: var(--primary);
+  border-color: var(--white);
 }
 
 /*# sourceMappingURL=variables.css.map */

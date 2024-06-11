@@ -1,5 +1,4 @@
 .card {
-
     &.article {
         background-color: var(--light);
         
@@ -34,9 +33,39 @@
                     color: var(--primary);
                 }
             }
-            .btn {
-                margin-top: .25rem;
+            
+            .link-holder {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-top: 1px solid #cfcfcf;
+                padding-top: .75rem;
             }
         }
     }
 }
+
+.blogArticle {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .post-content {
+       background-color: var(--white);
+       padding: 3rem 2rem 2rem;
+       border-radius: 8px;
+       max-width: 50rem;
+       margin-right: -8rem;
+       z-index: 2;
+       text-decoration: none;
+        color: var(--gray);
+    }
+    .post-header img {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+}        

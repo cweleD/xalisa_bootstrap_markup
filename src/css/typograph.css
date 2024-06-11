@@ -1,5 +1,13 @@
-.dark-mode body, .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode p, .dark-mode span {
-  color: #fff;
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode span, .dark-mode p {
+  color: var(--white);
+}
+
+h1, h2, h3, h4, h5, a {
+  color: var(--primary);
+}
+
+.body, p, span {
+  color: var(--gray);
 }
 
 /*# sourceMappingURL=typograph.css.map */
