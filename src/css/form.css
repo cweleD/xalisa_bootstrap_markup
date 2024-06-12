@@ -4,13 +4,16 @@
 }
 .contact-form .form-holder {
   width: 50%;
-  background-color: var(--bs-blue);
+  background-color: var(--primary);
   padding: 60px 30px;
   display: flex;
   align-items: center;
 }
 .contact-form .form-holder label, .contact-form .form-holder .form-text {
   color: white;
+}
+.contact-form .form-holder .form-check {
+  padding-left: 2.3rem;
 }
 .contact-form .content-holder {
   width: 50%;

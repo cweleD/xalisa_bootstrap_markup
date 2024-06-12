@@ -76,5 +76,12 @@
     background-color: var(--white);
     z-index: 2;
     margin-top: -4rem;
+    margin-bottom: 4rem;
     line-height: inherit;
+
+    .author {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5rem;
+    }
 }

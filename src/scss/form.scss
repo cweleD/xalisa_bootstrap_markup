@@ -4,13 +4,17 @@
 
     .form-holder {
         width: 50%;
-        background-color: var(--bs-blue);
+        background-color: var(--primary);
         padding: 60px 30px;
         display: flex;
         align-items: center;
 
         label, .form-text {
             color: white;
+        }
+
+        .form-check {
+            padding-left: 2.3rem;
         }
     }
 

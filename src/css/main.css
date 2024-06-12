@@ -11998,13 +11998,16 @@ footer .social-icons a {
 }
 .contact-form .form-holder {
   width: 50%;
-  background-color: var(--bs-blue);
+  background-color: var(--primary);
   padding: 60px 30px;
   display: flex;
   align-items: center;
 }
 .contact-form .form-holder label, .contact-form .form-holder .form-text {
   color: white;
+}
+.contact-form .form-holder .form-check {
+  padding-left: 2.3rem;
 }
 .contact-form .content-holder {
   width: 50%;
@@ -12153,7 +12156,13 @@ footer .social-icons a {
   background-color: var(--white);
   z-index: 2;
   margin-top: -4rem;
+  margin-bottom: 4rem;
   line-height: inherit;
+}
+.blog-section .author {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
 }
 
 .content-image-offset {
