@@ -19,35 +19,4 @@
   z-index: 1;
 }
 
-.contact-header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  height: 450px;
-}
-.contact-header:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--bs-blue);
-  opacity: 0.25;
-  z-index: 0;
-}
-.contact-header .contact-map {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  height: 450px;
-}
-.contact-header .container {
-  position: relative;
-  z-index: 2;
-}
-
 /*# sourceMappingURL=header.css.map */
